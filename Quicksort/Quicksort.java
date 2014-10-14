@@ -1,3 +1,5 @@
+// Quicksort for sorting arrays of chars from "Java A Beginner's Guide" p. 211 (236 of 729 in pdf)
+
 public class Quicksort {
 	public static void qsort(char items[]) {
 		qs(items, 0, items.length-1);
@@ -9,6 +11,7 @@ public class Quicksort {
 		char temp;
 
 		do {
+			// Comparing pivots with left and right
 			while((items[l]<pivot) && (l<right)) {
 				l++;
 			}
@@ -28,6 +31,7 @@ public class Quicksort {
 
 		} while(l <= r);
 
+		// Recursive calls
 		if(left < r) {
 			qs(items, left, r);
 		}
