@@ -1,4 +1,4 @@
-public class charToUp {
+public class CharToUp {
 	public static void main(String args[]) {
 		char chLow;
 		char chUp;	
