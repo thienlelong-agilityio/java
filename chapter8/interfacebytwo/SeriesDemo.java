@@ -22,6 +22,12 @@ public class SeriesDemo {
 
 		for(int i=0; i<5; i++) {
 			System.out.println(ob.getNext());
-		}	
+		}
+
+		System.out.println("Using the default method from the interface: ");
+		// Using the default method from the interface
+		for(int i=0; i<5; i++) {
+			System.out.println(ob.getNextArray(5)[i]);
+		}
 	}
 }
