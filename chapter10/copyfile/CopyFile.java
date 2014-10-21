@@ -24,7 +24,7 @@ public class CopyFile {
 				}
 			} while(i != -1);
 		} catch (IOException e) {
-			System.out.println("E/O Error: " + e);
+			System.out.println("I/O Error: " + e);
 		}
 	}
 }
