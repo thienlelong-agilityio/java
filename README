@@ -1,1 +1,20 @@
-These are my practice files for Java
+These are my practice files for Java.
+
+Some codes are from the book Java A Beginner's Guide by Herbert Schildt.
+
+Chapters:
+Chapter 1: Java Fundamentals
+Chapter 2: Introducing Data Types and Operators
+Chapter 3: Program Control Statements
+Chapter 4: Introducing Classes, Objects, and Methods
+Chapter 5: More Data Types and Operators
+Chapter 6: A Closer Look at Methods and Classes
+Chapter 7: Inheritance
+Chapter 8: Packages and Interfaces
+Chapter 9: Exception Handling
+Chapter 10: Using I/O
+Chapter 11: Multithreaded Programming
+Chapter 12: Enumerations, Autoboxing, Static Import, and Annotations
+Chapter 13: Generics
+Chapter 14: Lambda Expressions and Method References
+Chapter 15: Applets, Events, and Miscellaneous Topics
