@@ -1,3 +1,5 @@
+// Generics page 446
+
 class GenericsTest<T> {
 	T ob;
 
