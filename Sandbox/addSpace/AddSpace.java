@@ -26,7 +26,9 @@ class AddSpace {
 	}
 
 	static String addSpace(String str) {
-		// Somehow you have to use (\\d+|\\W) instead of [\\d+\\W]
+		// You have to use (\\d+|\\W) instead of [\\d+\\W]
+		// Because the brackets negate the effects of +. So it is also matching the + sign.
+		// http://stackoverflow.com/questions/26565667/regex-difference-between-square-brackets-and-vertical-bar
 		str = str.replaceAll("(\\d+|\\W)", "$0 ").replaceAll("\\s+", " ").trim();
 		return str; 
 	}
