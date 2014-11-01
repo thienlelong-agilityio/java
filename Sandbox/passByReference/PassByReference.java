@@ -1,4 +1,5 @@
 // Testing what objects are passed by reference
+// Only objects are passed by reference except the wrappers because they are immutable
 
 class PassByReference {
 	public static void main(String args[]) {
