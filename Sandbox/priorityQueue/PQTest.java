@@ -10,7 +10,7 @@ public class PQTest {
 		pq.add(9);
 		pq.add(6);
 
-		System.out.println("Peek: " + pq.peek());
 		System.out.println("Poll (remove min): " + pq.poll());
+		System.out.println("Peek: " + pq.peek());
 	}
 }
