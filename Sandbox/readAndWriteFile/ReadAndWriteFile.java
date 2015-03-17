@@ -11,7 +11,7 @@ public class ReadAndWriteFile {
 		PrintWriter writer = new PrintWriter("newFile.txt");  // Write to a file
 
 		while(in.hasNextLine()) {
-			String line = in.nextLine();
+			String line = in.nextLine();  // Reading line
 			String elements[] = line.split(",");  // Separating elements by comma
 
 			System.out.println(line);
