@@ -13,6 +13,8 @@ public class IterateHashMap {
 		System.out.println(map.get("\"h\""));
 		System.out.println();
 
+		// This will not return the same order as you added it in
+		// Instead it will be in the order by their hashcode or key
 		for(String s : map.keySet()) {
 			System.out.println(s);
 		}
