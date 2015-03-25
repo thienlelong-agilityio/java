@@ -18,5 +18,17 @@ public class IterateHashMap {
 		for(String s : map.keySet()) {
 			System.out.println(s);
 		}
+		System.out.println();
+
+		HashMap<Integer, Integer> num = new HashMap<Integer, Integer>();
+		num.put(1,1);
+		num.put(5,5);
+		num.put(3,3);
+		num.put(2,2);
+		num.put(4,4);
+
+		for(int i : num.keySet()) {
+			System.out.println(i);
+		}
 	}
 }
